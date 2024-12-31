@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+REPO_PATH="C:\Users\danny\Gitcommitfidgit" 
+
+FILE_PATH="FreeMoney.py"
+GIT_MESSAGE="Daily update: Important Feature added" 
+BRANCH="main"
+cd "$REPO_PATH" || exit
+echo "    " >> "$FILE_PATH"
+git add "$FILE_PATH"
+git commit -m "$GIT_MESSAGE"
+git push origin "$BRANCH"

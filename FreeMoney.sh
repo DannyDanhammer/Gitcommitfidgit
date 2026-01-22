@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the repository and file paths
-REPO_PATH="C://Users/danny/Gitcommitfidgit"  
+REPO_PATH="C:\Users\danny\Gitcommitfidgit"  
 FILE_PATH="FreeMoney.py"
 GIT_MESSAGE="Daily update: Important Feature added"
 BRANCH="main"
